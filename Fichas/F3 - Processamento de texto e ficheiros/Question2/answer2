@@ -1,0 +1,5 @@
+We can check that in the function f, we have a variable of name str that consists if a string with length of 8 bytes.
+So, following this afirmation, we can conclude that we can send to the function f strings with length less or equal than 8.
+In that point of view, the first 8 instructions (from the instruction with 'a' to the instruction with 'abcdefgh'), the program will work, but the two last instructions ('abcdefghi' and 'abcdefghij') will not work because their length is bigger than 8.
+
+To solve this problem, instead of giving a fix number to the string str, we can say that the maximum size to str is the size of the string inputed by the user. Instead of the instruction "char str[8]", we could write "char str[sizeof(content)]". In this instruction, we are allocationg memory with the exat same size of the string inputed by the user.

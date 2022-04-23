@@ -21,7 +21,6 @@ int main(int argc, char* argv[]) {
     char ch;
     int nbytes, fd[2];
     pid_t pid;
-    char line[LINESIZE];
 
     // A pipe can be considered has a communication channel that connects two processes and allows 
     // an undirected information flux (half duplex). The pipe is represented by an array of integers

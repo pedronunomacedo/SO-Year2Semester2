@@ -39,6 +39,7 @@ int main(int argc, char* argv[]) {
 
         close(fd[READ_END]);
         ch = fgetc(file);
+        // The parent write the content of the file in the box
         while (ch != EOF){
             if ((nbytes = write(fd[WRITE_END], &ch, 1)) < 0) {
                 fprintf(stderr, "Unable to write to pipe: %s\n", strerror(errno));

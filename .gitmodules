@@ -1,0 +1,3 @@
+[submodule "ProjSO"]
+	path = ProjSO
+	url = git@github.com:Pedro-CAB/ProjSO.git

@@ -1,3 +1,6 @@
 [submodule "ProjSO"]
 	path = ProjSO
 	url = git@github.com:Pedro-CAB/ProjSO.git
+[submodule "Projects/SO-Project"]
+	path = Projects/SO-Project
+	url = git@github.com:pedronunomacedo/SO-Project.git

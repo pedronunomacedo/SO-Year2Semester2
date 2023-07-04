@@ -7,3 +7,6 @@
 [submodule "Projects/1st_project"]
 	path = Projects/1st_project
 	url = git@github.com:pedronunomacedo/SO-Project.git
+[submodule "Project"]
+	path = Project
+	url = git@github.com:pedronunomacedo/SO-Project.git
